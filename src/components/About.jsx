@@ -1,5 +1,6 @@
 import Aboutpic from "../assets/projectImg/977348dcf1d5f5b7bc108c01d8a1dec4.png";
-import { motion } from "framer-motion";
+import { motion } from "motion/react"
+
 
 export const About = () => {
   return (

@@ -1,5 +1,6 @@
 import profilepic from "../assets/projectImg/7c817b4ae557f0259e6f4c5057907844.png";
-import { motion } from "framer-motion";
+import { motion } from "motion/react"
+
 
 const container = (delay) => ({
   hidden: { opacity: 0, x: -100 },

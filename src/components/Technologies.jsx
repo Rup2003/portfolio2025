@@ -7,7 +7,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { DiNodejsSmall } from "react-icons/di";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react"
 
 const iconVar = (duration) => ({
   initial: { y: -10 },
