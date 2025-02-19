@@ -30,7 +30,7 @@ export const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-800 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              FrontEnd Developer
+              FullStack Developer
             </motion.span>
             <motion.p
               variants={container(0.6)}
@@ -38,9 +38,11 @@ export const Hero = () => {
               animate="visible"
               className="my-4 max-w-2-xl text-2xl py-6 tracking-tighter bg-gradient-to-r from-pink-300 via-slate-500 to-purple-800 bg-clip-text text-transparent"
             >
-              I create sleek, responsive, and intuitive web experiences using
-              React, Tailwind CSS, and JavaScript, blending design and
-              performance for seamless user interactions.
+              I craft seamless digital experiences with modern web technologies.
+              From intuitive frontend interfaces to robust backend
+              architectures, I blend creativity with performance. Skilled in AWS
+              Cloud, I build scalable solutions that bridge innovation and
+              efficiency.
             </motion.p>
           </div>
         </div>

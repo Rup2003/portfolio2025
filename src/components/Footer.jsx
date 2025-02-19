@@ -20,7 +20,7 @@ export const Footer = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: 50 }}
         transition={{ duration: 1, ease: "easeIn" }}
-        className="container grid grid-cols-4 gap-2.5"
+        className="container flex flex-col md:grid md:grid-cols-4 gap-2.5"
       >
         <div className="footer-about ">
           <h3 className="text-lg font-semibold mb-2">Rupak saha</h3>

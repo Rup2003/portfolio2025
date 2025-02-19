@@ -13,7 +13,11 @@ export const About = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl w-3/4 lg:w-2/3 h-auto" src={Aboutpic} alt="about" />
+            <img
+              className="rounded-2xl w-3/4 lg:w-2/3 h-auto"
+              src={Aboutpic}
+              alt="about"
+            />
           </div>
         </motion.div>
         <motion.div
@@ -25,10 +29,13 @@ export const About = () => {
           <div className="flex justify-center lg:justify-center ">
             <div className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-800 bg-clip-text pb-16 font-extralight tracking-tight text-transparent text align-middle">
               <p className="text-2xl tracking-tighter mt-7 max-w-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                nesciunt nobis modi eveniet iusto aliquid, dignissimos facilis
-                blanditiis incidunt labore tempora reprehenderit amet cumque
-                dolor dolorum ullam aperiam aut. Labore!
+                I'm a Full-Stack Developer with a passion for frontend
+                craftsmanship and a solid grasp of backend technologies.
+                Pursuing my BTech in Computer Science, I specialize in creating
+                seamless digital experiences. With expertise in AWS Cloud, I
+                build scalable and efficient solutions. I thrive on solving
+                problems, exploring new technologies, and pushing the boundaries
+                of web development. Let’s create something amazing
               </p>
             </div>
           </div>

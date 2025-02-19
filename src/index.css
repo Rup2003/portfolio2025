@@ -5,3 +5,17 @@
 :root{
   font-family: "Inter", sans-serif;
 }
+h1,h2{
+  text-transform: uppercase;
+  background: linear-gradient(to right, #F9A8D4, #64748B, #6B21A8,
+  #64748B, #F9A8D4);
+  background-size: 200%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate-gradient 2.5s linear infinite;
+}
+@keyframes animate-gradient{
+  to{
+    background-position: 200%
+  }
+}

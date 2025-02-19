@@ -3,6 +3,10 @@ import { FaJava } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { DiNodejsSmall } from "react-icons/di";
+
 import { motion } from "framer-motion";
 
 const iconVar = (duration) => ({
@@ -74,6 +78,30 @@ export const Technologies = () => {
           className="rounded-2xl border-4 border-slate-500 p-4"
         >
           <FaJava className="text-7xl text-blue-700" />
+        </motion.div>
+        <motion.div
+          variants={iconVar(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-slate-500 p-4"
+        >
+          <SiMongodb className="text-7xl text-green-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVar(2)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-slate-500 p-4"
+        >
+          <SiExpress className="text-7xl text-gray-800" />
+        </motion.div>
+        <motion.div
+          variants={iconVar(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-slate-500 p-4"
+        >
+          <DiNodejsSmall className="text-7xl text-green-600" />
         </motion.div>
       </motion.div>
     </div>
